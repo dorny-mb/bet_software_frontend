@@ -1,0 +1,17 @@
+fragment user on UsersPermissionsUser {
+  id
+  created_at
+  updated_at
+  username
+  email
+  phoneNumber
+  provider
+  confirmed
+  blocked
+  role {
+    id
+    name
+    description
+    type
+  }
+}

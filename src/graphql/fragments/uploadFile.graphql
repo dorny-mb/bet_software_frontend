@@ -1,0 +1,12 @@
+fragment uploadFile on UploadFile {
+  id
+  created_at
+  updated_at
+  name
+  alternativeText
+  caption
+  size
+  mime
+  url
+  provider
+}
